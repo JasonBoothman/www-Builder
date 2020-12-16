@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:latest
 
 # https://www.sitepoint.com/optimizing-docker-based-ci-runners-shared-package-caches/
 ENV COMPOSER_CACHE_DIR /cache/composer
